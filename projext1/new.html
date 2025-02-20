@@ -17,12 +17,80 @@
             // alert(`this is your task ${tone}`);
         } -->
     <!-- </script> -->
-   <!-- <button onclick="java()">Click me </button>
+    <!-- <button onclick="java()">Click me </button>
    <script>
     function java(){
         document.body.style.backgroundColor = "blue";
     } -->
-   </script>
+    <!-- loing page -->
+<!-- 
+    <body>
+        <input type="text" placeholder="type something" id="one">
+        <button onclick="practise()">click me</button>
+        <p id="two"></p>
+    </body>
+    <script>
+        function practise(){
+            let inputfield = document.getElementById("one");
+            let inputvalue = inputfield.value;
+
+            if (inputvalue.trim() !== "") {
+                document.getElementById("two").innerText = "you entered:" + inputvalue;
+                inputfield.value = " ";
+            }
+             else {
+                alert("type something");
+            }
+        } 
+    </script> -->
+
+    <!-- <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>What's your favorite color</title>
+        <style>
+            body {
+                font-family: Arial, sans-serif;
+                text-align: center;
+                margin-top: 50px;
+            }
+            input, button {
+                padding: 10px;
+                margin: 5px;
+                font-size: 16px;
+            }
+            #text {
+                font-size: 24px;
+                font-weight: bold;
+                margin-top: 20px;
+            }
+        </style>
+    </head>
+    <body>
+        <h2>What's your favorite color</h2>
+        <input type="text" id="colorInput" placeholder="Enter color name or hex">
+        <button onclick="changeColor()">make a wish</button>
+        <p id="text">here i am </p>
+    
+        <script>
+            function changeColor() {
+                let color = document.getElementById("colorInput").value.trim();
+                let textElement = document.getElementById("text");
+    
+                if (color) {
+                    textElement.style.color = color;
+                } else {
+                    alert("Please enter a valid color!");
+                }
+            }
+        </script>=
+    </body>
+    </html> -->
+
+
+
 </body>
 
 </html>
